@@ -11,10 +11,14 @@ torch>=2.0.0
 sentence-transformers>=2.2.0
 faiss-cpu>=1.7.4
 
+# Database
+motor>=3.1.1
+pymongo[srv]>=4.3.3
+pydantic>=1.10.8
+
 # Utilities
 python-dotenv>=1.0.0
 numpy>=1.24.0
-
-# Add these to requirements.txt
-python-docx>=0.8.11  # For .docx files
-PyPDF2>=3.0.0  # For .pdf files 
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+bson>=0.5.10
