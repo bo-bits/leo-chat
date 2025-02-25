@@ -15,6 +15,9 @@ A secure, local intelligence tool that enables law enforcement personnel to effi
 3. **Build and start the containers**
   - `docker-compose up --build`
 
+4. **Access the application**
+  - Open your browser and navigate to `http://localhost:8501`
+
 ### Option 2: Manual Setup
 
 1. **Prerequisites**
@@ -34,6 +37,10 @@ A secure, local intelligence tool that enables law enforcement personnel to effi
    # Run the application
    streamlit run src/ui/Hello.py
    ```
+
+3. **Access the application**
+   - Open your browser and navigate to `http://localhost:8501`
+   
 
 ## Basic Usage
 1. **Initial Data Load**
