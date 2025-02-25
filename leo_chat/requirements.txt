@@ -21,4 +21,5 @@ python-dotenv>=1.0.0
 numpy>=1.24.0
 python-docx>=0.8.11
 PyPDF2>=3.0.0
-bson>=0.5.10
+# Remove standalone bson as it conflicts with pymongo's bson
+# bson>=0.5.10
